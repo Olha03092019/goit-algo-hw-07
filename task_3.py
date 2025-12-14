@@ -20,7 +20,7 @@ if __name__ == "__main__":
     root = insert(root, 6)
     root = insert(root, 8)
     root = insert(root, 1)
-    print(f"Sum of values of the binary tree : " + str(sum_values(root)))
+    print(f"Sum of the values of the binary tree: " + str(sum_values(root)))
 
     root = AVLNode(5)
     root = insert_avl(root, 3)
@@ -30,5 +30,5 @@ if __name__ == "__main__":
     root = insert_avl(root, 6)
     root = insert_avl(root, 8)
     root = insert_avl(root, 1)
-    print(f"Sum of values of the avl tree : "+str(sum_avl_values(root)))
+    print(f"Sum of the values of the avl tree: "+str(sum_avl_values(root)))
 

@@ -26,7 +26,7 @@ if __name__ == "__main__":
     root = insert(root, 6)
     root = insert(root, 8)
     root = insert(root, 1)
-    print(f"Maximum value in the binary tree : "+str(search_max_value(root)))
+    print(f"Maximum value in the binary tree: "+str(search_max_value(root)))
 
     root = AVLNode(15)
     root = insert_avl(root, 13)
@@ -36,5 +36,5 @@ if __name__ == "__main__":
     root = insert_avl(root, 16)
     root = insert_avl(root, 18)
     root = insert_avl(root, 11)
-    print(f"Maximum value in the avl tree : "+str(search_avl_max_value(root)))
+    print(f"Maximum value in the avl tree: "+str(search_avl_max_value(root)))
 
